@@ -53,7 +53,7 @@ async def ai_chat(update: Update, context: ContextTypes.DEFAULT_TYPE, with_conte
 
 
 def main():
-    application = ApplicationBuilder().token(os.environ["6917495740:AAENNLBVyRD9WUQ8egC4X5C9Rm3dcTmwYCA"]).build()
+    application = ApplicationBuilder().token(os.environ["TELEGRAM_TOKEN"]).build()
 
     start_handler = CommandHandler("start", start)
     application.add_handler(start_handler)
