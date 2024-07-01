@@ -19,7 +19,7 @@ chat_history = defaultdict(list)
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="Hi I'm a bot, how can I help?")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="Hi I'm Royal Katsic Ai , how can I help?")
 
 
 async def update_and_get_chat_history(message: str, chat_id: int, top_k_messages: int = 5) -> list:
