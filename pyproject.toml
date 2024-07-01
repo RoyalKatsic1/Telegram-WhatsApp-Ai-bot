@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "llm_messaging_app_bots"
-authors = [{ name = "ROYAL KATSIC", email = "royalkatsic@gmail.com", telegram = "@royalkatsictips", WhatsApp = "+256764093855" }]
+authors = [{ name = "ROYAL KATSIC", email = "royalkatsic@gmail.com", telegram = "@royalkatsictips", username = "@itsroyalkatsic", WhatsApp = "+256764093855" }]
 description = "Implementations for LLMs at messaging apps."
 requires-python = ">=3.11"
 dynamic = ["version", "readme", "dependencies"]
